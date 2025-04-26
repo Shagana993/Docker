@@ -1,0 +1,256 @@
+Attaching to chrome-1, edge-1, firefox-1, selenium-hub
+selenium-hub  | 2025-03-31 12:05:01,296 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub  | 2025-03-31 12:05:01,304 INFO RPC interface 'supervisor' initialized
+selenium-hub  | 2025-03-31 12:05:01,305 INFO supervisord started with pid 8
+firefox-1     | 2025-03-31 12:05:01,626 INFO Included extra file "/etc/supervisor/conf.d/firefox-cleanup.conf" during parsing
+firefox-1     | 2025-03-31 12:05:01,626 INFO Included extra file "/etc/supervisor/conf.d/recorder.conf" during parsing
+firefox-1     | 2025-03-31 12:05:01,626 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox-1     | 2025-03-31 12:05:01,626 INFO Included extra file "/etc/supervisor/conf.d/uploader.conf" during parsing
+firefox-1     | 2025-03-31 12:05:01,634 INFO RPC interface 'supervisor' initialized
+firefox-1     | 2025-03-31 12:05:01,635 INFO supervisord started with pid 8
+edge-1        | 2025-03-31 12:05:01,774 INFO Included extra file "/etc/supervisor/conf.d/edge-cleanup.conf" during parsing
+edge-1        | 2025-03-31 12:05:01,774 INFO Included extra file "/etc/supervisor/conf.d/recorder.conf" during parsing
+chrome-1      | 2025-03-31 12:05:01,775 INFO Included extra file "/etc/supervisor/conf.d/chrome-cleanup.conf" during parsing
+chrome-1      | 2025-03-31 12:05:01,775 INFO Included extra file "/etc/supervisor/conf.d/recorder.conf" during parsing
+edge-1        | 2025-03-31 12:05:01,775 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-1      | 2025-03-31 12:05:01,775 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-1      | 2025-03-31 12:05:01,775 INFO Included extra file "/etc/supervisor/conf.d/uploader.conf" during parsing
+edge-1        | 2025-03-31 12:05:01,775 INFO Included extra file "/etc/supervisor/conf.d/uploader.conf" during parsing
+edge-1        | 2025-03-31 12:05:01,781 INFO RPC interface 'supervisor' initialized
+chrome-1      | 2025-03-31 12:05:01,781 INFO RPC interface 'supervisor' initialized
+chrome-1      | 2025-03-31 12:05:01,781 INFO supervisord started with pid 8
+edge-1        | 2025-03-31 12:05:01,781 INFO supervisord started with pid 8
+selenium-hub  | 2025-03-31 12:05:02,311 INFO spawned: 'selenium-grid-hub' with pid 9
+selenium-hub  | Starting Selenium Grid Hub...
+selenium-hub  | 2025-03-31 12:05:02,319 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub  | Appending Selenium option: --port 4444
+selenium-hub  | Appending Selenium option: --log-level INFO
+selenium-hub  | Appending Selenium option: --http-logs false
+selenium-hub  | Appending Selenium option: --structured-logs false
+selenium-hub  | Appending Selenium option: --reject-unsupported-caps false
+selenium-hub  | Appending Selenium option: --session-request-timeout 300
+selenium-hub  | Appending Selenium option: --session-retry-interval 15
+selenium-hub  | Appending Selenium option: --healthcheck-interval 120
+selenium-hub  | Appending Selenium option: --relax-checks true
+selenium-hub  | Appending Selenium option: --bind-host false
+selenium-hub  | Appending Selenium option: --config /opt/selenium/config.toml
+selenium-hub  | Appending Selenium option: --tracing false
+selenium-hub  | Tracing is disabled
+selenium-hub  | Using JAVA_OPTS:  -Dwebdriver.remote.enableTracing=false -Dwebdriver.httpclient.version=HTTP_1_1
+firefox-1     | 2025-03-31 12:05:02,638 INFO spawned: 'xvfb' with pid 9
+firefox-1     | 2025-03-31 12:05:02,641 INFO spawned: 'vnc' with pid 10
+firefox-1     | 2025-03-31 12:05:02,648 INFO spawned: 'novnc' with pid 11
+firefox-1     | 2025-03-31 12:05:02,652 INFO spawned: 'selenium-node' with pid 13
+firefox-1     | 2025-03-31 12:05:02,664 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-1      | 2025-03-31 12:05:02,785 INFO spawned: 'xvfb' with pid 9
+edge-1        | 2025-03-31 12:05:02,785 INFO spawned: 'xvfb' with pid 9
+edge-1        | 2025-03-31 12:05:02,789 INFO spawned: 'vnc' with pid 10
+chrome-1      | 2025-03-31 12:05:02,790 INFO spawned: 'vnc' with pid 10
+edge-1        | 2025-03-31 12:05:02,794 INFO spawned: 'novnc' with pid 11
+chrome-1      | 2025-03-31 12:05:02,797 INFO spawned: 'novnc' with pid 11
+edge-1        | 2025-03-31 12:05:02,801 INFO spawned: 'selenium-node' with pid 13
+chrome-1      | 2025-03-31 12:05:02,803 INFO spawned: 'selenium-node' with pid 13
+chrome-1      | 2025-03-31 12:05:02,817 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+edge-1        | 2025-03-31 12:05:02,821 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefox-1     | Appending Selenium option: --register-period 120
+firefox-1     | Appending Selenium option: --register-cycle 10
+firefox-1     | Appending Selenium option: --register-shutdown-on-failure 
+firefox-1     | Appending Selenium option: --heartbeat-period 30
+firefox-1     | Appending Selenium option: --log-level INFO
+firefox-1     | Appending Selenium option: --http-logs false
+firefox-1     | Appending Selenium option: --structured-logs false
+firefox-1     | Generating Selenium Config
+firefox-1     | Configuring server...
+firefox-1     | Setting up SE_NODE_HOST...
+firefox-1     | Setting up SE_NODE_PORT...
+firefox-1     | Setting up SE_NODE_GRID_URL...
+chrome-1      | Appending Selenium option: --register-period 120
+chrome-1      | Appending Selenium option: --register-cycle 10
+chrome-1      | Appending Selenium option: --register-shutdown-on-failure 
+chrome-1      | Appending Selenium option: --heartbeat-period 30
+chrome-1      | Appending Selenium option: --log-level INFO
+chrome-1      | Appending Selenium option: --http-logs false
+chrome-1      | Appending Selenium option: --structured-logs false
+chrome-1      | Generating Selenium Config
+chrome-1      | Configuring server...
+chrome-1      | Setting up SE_NODE_HOST...
+chrome-1      | Setting up SE_NODE_PORT...
+chrome-1      | Setting up SE_NODE_GRID_URL...
+firefox-1     | Appending Selenium option: --tracing false
+firefox-1     | Tracing is disabled
+firefox-1     | Appending Selenium option: --bind-host false
+firefox-1     | Appending Selenium option: --config /opt/selenium/config.toml
+firefox-1     | Selenium Grid Node configuration: 
+firefox-1     | [events]
+firefox-1     |     publish = "tcp://selenium-hub:4442"
+firefox-1     |     subscribe = "tcp://selenium-hub:4443"
+firefox-1     |     
+firefox-1     | [node]
+firefox-1     | session-timeout = 300
+firefox-1     | override-max-sessions = false
+firefox-1     | detect-drivers = false
+firefox-1     | drain-after-session-count = 0
+firefox-1     | max-sessions = 1
+firefox-1     | 
+firefox-1     | [[node.driver-configuration]]
+firefox-1     | display-name = "firefox"
+firefox-1     | stereotype = '{"browserName":"firefox","browserVersion":"137.0","platformName":"Linux","se:containerName":"0a9ac948076d","container:hostname":"0a9ac948076d","moz:firefoxOptions":{"binary":"/usr/bin/firefox"}}'
+firefox-1     | max-sessions = 1
+firefox-1     |     
+firefox-1     | Starting Selenium Grid Node...
+firefox-1     | Using JAVA_OPTS:  -Dwebdriver.remote.enableTracing=false -Dwebdriver.httpclient.version=HTTP_1_1
+edge-1        | Appending Selenium option: --register-period 120
+edge-1        | Appending Selenium option: --register-cycle 10
+edge-1        | Appending Selenium option: --register-shutdown-on-failure 
+edge-1        | Appending Selenium option: --heartbeat-period 30
+edge-1        | Appending Selenium option: --log-level INFO
+edge-1        | Appending Selenium option: --http-logs false
+edge-1        | Appending Selenium option: --structured-logs false
+edge-1        | Generating Selenium Config
+edge-1        | Configuring server...
+edge-1        | Setting up SE_NODE_HOST...
+edge-1        | Setting up SE_NODE_PORT...
+edge-1        | Setting up SE_NODE_GRID_URL...
+chrome-1      | Appending Selenium option: --tracing false
+chrome-1      | Tracing is disabled
+chrome-1      | Appending Selenium option: --bind-host false
+chrome-1      | Appending Selenium option: --config /opt/selenium/config.toml
+chrome-1      | Selenium Grid Node configuration: 
+chrome-1      | [events]
+chrome-1      |     publish = "tcp://selenium-hub:4442"
+chrome-1      |     subscribe = "tcp://selenium-hub:4443"
+chrome-1      |     
+chrome-1      | [node]
+chrome-1      | session-timeout = 300
+chrome-1      | override-max-sessions = false
+chrome-1      | detect-drivers = false
+chrome-1      | drain-after-session-count = 0
+chrome-1      | max-sessions = 1
+chrome-1      | 
+chrome-1      | [[node.driver-configuration]]
+chrome-1      | display-name = "chrome"
+chrome-1      | stereotype = '{"browserName":"chrome","browserVersion":"136.0","platformName":"Linux","se:containerName":"938ffaf7a930","container:hostname":"938ffaf7a930","goog:chromeOptions":{"binary":"/usr/bin/google-chrome"}}'
+chrome-1      | max-sessions = 1
+chrome-1      |     
+chrome-1      | Starting Selenium Grid Node...
+chrome-1      | Using JAVA_OPTS:  -Dwebdriver.remote.enableTracing=false -Dwebdriver.httpclient.version=HTTP_1_1
+edge-1        | Appending Selenium option: --tracing false
+edge-1        | Tracing is disabled
+edge-1        | Appending Selenium option: --bind-host false
+edge-1        | Appending Selenium option: --config /opt/selenium/config.toml
+edge-1        | Selenium Grid Node configuration: 
+edge-1        | [events]
+edge-1        |     publish = "tcp://selenium-hub:4442"
+edge-1        |     subscribe = "tcp://selenium-hub:4443"
+edge-1        |     
+edge-1        | [node]
+edge-1        | session-timeout = 300
+edge-1        | override-max-sessions = false
+edge-1        | detect-drivers = false
+edge-1        | drain-after-session-count = 0
+edge-1        | max-sessions = 1
+edge-1        | 
+edge-1        | [[node.driver-configuration]]
+edge-1        | display-name = "MicrosoftEdge"
+edge-1        | stereotype = '{"browserName":"MicrosoftEdge","browserVersion":"136.0","platformName":"Linux","se:containerName":"c2f802067bb0","container:hostname":"c2f802067bb0","ms:edgeOptions":{"binary":"/usr/bin/microsoft-edge"}}'
+edge-1        | max-sessions = 1
+edge-1        |     
+edge-1        | Starting Selenium Grid Node...
+edge-1        | Using JAVA_OPTS:  -Dwebdriver.remote.enableTracing=false -Dwebdriver.httpclient.version=HTTP_1_1
+selenium-hub  | 12:05:03.483 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub  | 12:05:03.496 INFO [LoggingOptions.getTracer] - Using null tracer
+selenium-hub  | 12:05:03.576 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.18.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.18.0.2:4443]
+selenium-hub  | 12:05:03.700 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.18.0.2:4442 and tcp://172.18.0.2:4443
+firefox-1     | 2025-03-31 12:05:03,714 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2025-03-31 12:05:03,715 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2025-03-31 12:05:03,716 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+selenium-hub  | 12:05:03.740 INFO [UnboundZmqEventBus.<init>] - Sockets created
+edge-1        | 2025-03-31 12:05:03,898 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2025-03-31 12:05:03,899 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2025-03-31 12:05:03,900 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1      | 2025-03-31 12:05:03,927 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1      | 2025-03-31 12:05:03,927 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1      | 2025-03-31 12:05:03,927 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 12:05:04.463 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+firefox-1     | 12:05:04.485 INFO [LoggingOptions.getTracer] - Using null tracer
+chrome-1      | 12:05:04.526 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-1      | 12:05:04.552 INFO [LoggingOptions.getTracer] - Using null tracer
+edge-1        | 12:05:04.580 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+edge-1        | 12:05:04.595 INFO [LoggingOptions.getTracer] - Using null tracer
+firefox-1     | 12:05:04.632 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-1      | 12:05:04.688 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+edge-1        | 12:05:04.702 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+selenium-hub  | 12:05:04.744 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+firefox-1     | 12:05:04.748 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-1      | 12:05:04.813 INFO [UnboundZmqEventBus.<init>] - Sockets created
+edge-1        | 12:05:04.812 INFO [UnboundZmqEventBus.<init>] - Sockets created
+firefox-1     | 12:05:05.754 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+edge-1        | 12:05:05.816 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-1      | 12:05:05.823 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+selenium-hub  | 12:05:06.296 INFO [Hub.execute] - Started Selenium Hub 4.30.0 (revision 509c7f1): http://172.18.0.2:4444
+firefox-1     | 12:05:06.339 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.3:5555
+firefox-1     | 12:05:06.348 INFO [LoggingOptions.getTracer] - Using null tracer
+chrome-1      | 12:05:06.376 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.5:5555
+chrome-1      | 12:05:06.384 INFO [LoggingOptions.getTracer] - Using null tracer
+firefox-1     | 12:05:06.395 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+edge-1        | 12:05:06.409 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.4:5555
+chrome-1      | 12:05:06.424 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+edge-1        | 12:05:06.426 INFO [LoggingOptions.getTracer] - Using null tracer
+edge-1        | 12:05:06.472 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+firefox-1     | 12:05:06.518 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "137.0","container:hostname": "0a9ac948076d","moz:firefoxOptions": {"binary": "\u002fusr\u002fbin\u002ffirefox"},"platformName": "linux","se:containerName": "0a9ac948076d","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-1      | 12:05:06.531 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "136.0","container:hostname": "938ffaf7a930","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:containerName": "938ffaf7a930","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+edge-1        | 12:05:06.573 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserName": "MicrosoftEdge","browserVersion": "136.0","container:hostname": "c2f802067bb0","ms:edgeOptions": {"binary": "\u002fusr\u002fbin\u002fmicrosoft-edge"},"platformName": "linux","se:containerName": "c2f802067bb0","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+firefox-1     | 12:05:06.579 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-1      | 12:05:06.591 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+edge-1        | 12:05:06.653 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+firefox-1     | 12:05:06.904 INFO [NodeServer$2.start] - Starting registration process for Node http://172.18.0.3:5555
+firefox-1     | 12:05:06.907 INFO [NodeServer.execute] - Started Selenium node 4.30.0 (revision 509c7f1): http://172.18.0.3:5555
+firefox-1     | 12:05:06.936 INFO [NodeServer$2.lambda$start$2] - Sending registration event...
+chrome-1      | 12:05:06.951 INFO [NodeServer$2.start] - Starting registration process for Node http://172.18.0.5:5555
+chrome-1      | 12:05:06.961 INFO [NodeServer.execute] - Started Selenium node 4.30.0 (revision 509c7f1): http://172.18.0.5:5555
+chrome-1      | 12:05:06.997 INFO [NodeServer$2.lambda$start$2] - Sending registration event...
+selenium-hub  | 12:05:07.030 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+edge-1        | 12:05:07.117 INFO [NodeServer$2.start] - Starting registration process for Node http://172.18.0.4:5555
+edge-1        | 12:05:07.124 INFO [NodeServer.execute] - Started Selenium node 4.30.0 (revision 509c7f1): http://172.18.0.4:5555
+edge-1        | 12:05:07.164 INFO [NodeServer$2.lambda$start$2] - Sending registration event...
+selenium-hub  | 12:05:07.700 INFO [GridModel.setAvailability] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from DOWN to UP
+selenium-hub  | 12:05:07.701 INFO [LocalDistributor.add] - Added node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 at http://172.18.0.5:5555. Health check every 120s
+selenium-hub  | 12:05:07.705 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-1      | 12:05:07.716 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 12:05:07.860 INFO [GridModel.setAvailability] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from DOWN to UP
+selenium-hub  | 12:05:07.860 INFO [LocalDistributor.add] - Added node 19e7001c-fa35-44fa-bc60-755bb468764e at http://172.18.0.3:5555. Health check every 120s
+selenium-hub  | 12:05:07.863 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+firefox-1     | 12:05:07.871 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 12:05:08.022 INFO [GridModel.setAvailability] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from DOWN to UP
+selenium-hub  | 12:05:08.022 INFO [LocalDistributor.add] - Added node f7cede67-c661-4191-97bf-cd7bd789d64d at http://172.18.0.4:5555. Health check every 120s
+edge-1        | 12:05:08.029 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 13:57:20.498 INFO [GridModel.purgeDeadNodes] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from UP to DOWN
+selenium-hub  | 13:57:20.530 INFO [GridModel.purgeDeadNodes] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from UP to DOWN
+selenium-hub  | 13:57:20.531 INFO [GridModel.purgeDeadNodes] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from UP to DOWN
+selenium-hub  | 13:57:20.532 INFO [GridModel.setAvailability] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from DOWN to UP
+selenium-hub  | 13:57:20.544 INFO [GridModel.setAvailability] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from DOWN to UP
+selenium-hub  | 13:57:20.554 INFO [GridModel.setAvailability] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from DOWN to UP
+selenium-hub  | 16:18:45.211 INFO [GridModel.purgeDeadNodes] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from UP to DOWN
+selenium-hub  | 16:18:45.241 INFO [GridModel.purgeDeadNodes] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from UP to DOWN
+selenium-hub  | 16:18:45.243 INFO [GridModel.purgeDeadNodes] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from UP to DOWN
+selenium-hub  | 19:51:11.845 INFO [GridModel.purgeDeadNodes] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from UP to DOWN
+selenium-hub  | 19:51:11.860 INFO [GridModel.purgeDeadNodes] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from UP to DOWN
+selenium-hub  | 19:51:11.860 INFO [GridModel.purgeDeadNodes] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from UP to DOWN
+selenium-hub  | 06:35:43.917 INFO [GridModel.purgeDeadNodes] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from UP to DOWN
+selenium-hub  | 06:35:43.943 INFO [GridModel.purgeDeadNodes] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from UP to DOWN
+selenium-hub  | 06:35:43.943 INFO [GridModel.purgeDeadNodes] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from UP to DOWN
+selenium-hub  | 09:43:33.522 INFO [GridModel.purgeDeadNodes] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from UP to DOWN
+selenium-hub  | 09:43:33.538 INFO [GridModel.purgeDeadNodes] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from UP to DOWN
+selenium-hub  | 09:43:33.538 INFO [GridModel.purgeDeadNodes] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from UP to DOWN
+selenium-hub  | 12:16:08.002 INFO [GridModel.purgeDeadNodes] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from UP to DOWN
+selenium-hub  | 12:16:08.012 INFO [GridModel.purgeDeadNodes] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from UP to DOWN
+selenium-hub  | 12:16:08.012 INFO [GridModel.purgeDeadNodes] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from UP to DOWN
+selenium-hub  | 12:45:53.765 INFO [GridModel.purgeDeadNodes] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from UP to DOWN
+selenium-hub  | 12:45:53.767 INFO [GridModel.purgeDeadNodes] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from UP to DOWN
+selenium-hub  | 12:45:53.768 INFO [GridModel.purgeDeadNodes] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from UP to DOWN
+selenium-hub  | 13:39:30.743 INFO [GridModel.purgeDeadNodes] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from UP to DOWN
+selenium-hub  | 13:39:30.794 INFO [GridModel.purgeDeadNodes] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from UP to DOWN
+selenium-hub  | 13:39:30.795 INFO [GridModel.purgeDeadNodes] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from UP to DOWN
+selenium-hub  | 13:39:30.799 INFO [GridModel.setAvailability] - Switching Node f7cede67-c661-4191-97bf-cd7bd789d64d (uri: http://172.18.0.4:5555) from DOWN to UP
+selenium-hub  | 13:39:30.835 INFO [GridModel.setAvailability] - Switching Node 36f64f15-cd93-44b2-a301-dcfd97ae50d4 (uri: http://172.18.0.5:5555) from DOWN to UP
+selenium-hub  | 13:39:30.868 INFO [GridModel.setAvailability] - Switching Node 19e7001c-fa35-44fa-bc60-755bb468764e (uri: http://172.18.0.3:5555) from DOWN to UP
