@@ -55,6 +55,8 @@ public class ExcelData {
         driver.findElement(By.xpath("//span[text()='Next']")).click();
         driver.findElement(By.xpath("//span[text()='Next']")).click();
 
+        System.out.println("Chages for git");
+
     }
 
 }
