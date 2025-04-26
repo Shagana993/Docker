@@ -53,6 +53,7 @@ public class ExcelData {
         System.out.println(driver.getTitle());
         driver.findElement(By.xpath("//input[@type='email']")).sendKeys(userName);
         driver.findElement(By.xpath("//span[text()='Next']")).click();
+        driver.findElement(By.xpath("//span[text()='Next']")).click();
 
     }
 
